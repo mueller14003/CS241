@@ -115,6 +115,9 @@ def is_collision(object_1, object_2):
 
 
 class EndGame(Exception):
+    """
+    Exception type class to end the game cleanly.
+    """
     def __str__(self):
         pass
 
