@@ -7,4 +7,3 @@ def fun(*args):
 print(fun(1, 2, 4, 7, 11, 22))
 
 #Unpacking!!!!!! Coolio
-
