@@ -643,7 +643,7 @@ class Game(arcade.Window):
         super().__init__(width, height)
 
         self.media_player = pyglet.media.Player()
-        self.game_over_sound = arcade.load_sound(str(game_data[0]))
+        self.game_over_sound = pyglet.media.load(str(game_data[0]))
         self.sound = pyglet.media.load(str(game_data[1]))
         self.play_sound = True
         self.play_game_over = False

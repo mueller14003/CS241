@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/CS237/.idea/CS237.iml" filepath="$USER_HOME$/CS237/.idea/CS237.iml" />
+      <module fileurl="file://$USER_HOME$/DM1-Python/.idea/DM1-Python.iml" filepath="$USER_HOME$/DM1-Python/.idea/DM1-Python.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/check05b.py.iml" filepath="$PROJECT_DIR$/.idea/check05b.py.iml" />
     </modules>
   </component>
