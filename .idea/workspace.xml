@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5358c87-4940-415b-be20-ee516fac22ee" name="Default" comment="new fun stuff">
+    <list default="true" id="d5358c87-4940-415b-be20-ee516fac22ee" name="Default" comment="2048 logic finished, however unpolished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/DM1-Python/2048.py" beforeDir="false" afterPath="$USER_HOME$/DM1-Python/2048.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,14 +22,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2682" />
-          <entry key="txt" value="13" />
+          <entry key="py" value="2686" />
+          <entry key="txt" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="2682" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="Python" value="2686" />
         </counts>
       </usages-collector>
     </session>
@@ -82,18 +81,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/DM1-Python/2048.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+            <state relative-caret-position="2278">
+              <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
-                <marker date="1533190979631" expanded="true" signature="42:43" ph="..." />
-                <marker date="1533190979631" expanded="true" signature="310:313" ph="..." />
-                <marker date="1533190979631" expanded="true" signature="328:829" ph="..." />
-                <marker date="1533190979631" expanded="true" signature="328:1351" ph="..." />
-                <marker date="1533190979631" expanded="true" signature="1370:1375" ph="..." />
-                <marker date="1533190979631" expanded="true" signature="1890:1895" ph="..." />
-                <marker date="1533190979631" expanded="true" signature="3572:3574" ph="..." />
-                <marker date="1533190979631" expanded="true" signature="4464:4514" ph="..." />
+                <marker date="1533191053337" expanded="true" signature="42:43" ph="..." />
+                <marker date="1533191053337" expanded="true" signature="310:313" ph="..." />
+                <marker date="1533191053337" expanded="true" signature="328:829" ph="..." />
+                <marker date="1533191053337" expanded="true" signature="328:1351" ph="..." />
+                <marker date="1533191053337" expanded="true" signature="1370:1375" ph="..." />
+                <marker date="1533191053337" expanded="true" signature="1890:1895" ph="..." />
+                <marker date="1533191053337" expanded="true" signature="3573:3575" ph="..." />
+                <marker date="1533191053337" expanded="true" signature="4417:4467" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,6 +116,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/DM1-Python" />
   </component>
   <component name="IdeDocumentHistory">
@@ -430,12 +430,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532934746942</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2048 logic finished, however unpolished">
+      <created>1533191096996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533191096996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24771371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -464,7 +470,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new fun stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="new fun stuff" />
+    <MESSAGE value="2048 logic finished, however unpolished" />
+    <option name="LAST_COMMIT_MESSAGE" value="2048 logic finished, however unpolished" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/check08b.py">
@@ -593,18 +600,18 @@
     </entry>
     <entry file="file://$USER_HOME$/DM1-Python/2048.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+        <state relative-caret-position="2278">
+          <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <marker date="1533190979631" expanded="true" signature="42:43" ph="..." />
-            <marker date="1533190979631" expanded="true" signature="310:313" ph="..." />
-            <marker date="1533190979631" expanded="true" signature="328:829" ph="..." />
-            <marker date="1533190979631" expanded="true" signature="328:1351" ph="..." />
-            <marker date="1533190979631" expanded="true" signature="1370:1375" ph="..." />
-            <marker date="1533190979631" expanded="true" signature="1890:1895" ph="..." />
-            <marker date="1533190979631" expanded="true" signature="3572:3574" ph="..." />
-            <marker date="1533190979631" expanded="true" signature="4464:4514" ph="..." />
+            <marker date="1533191053337" expanded="true" signature="42:43" ph="..." />
+            <marker date="1533191053337" expanded="true" signature="310:313" ph="..." />
+            <marker date="1533191053337" expanded="true" signature="328:829" ph="..." />
+            <marker date="1533191053337" expanded="true" signature="328:1351" ph="..." />
+            <marker date="1533191053337" expanded="true" signature="1370:1375" ph="..." />
+            <marker date="1533191053337" expanded="true" signature="1890:1895" ph="..." />
+            <marker date="1533191053337" expanded="true" signature="3573:3575" ph="..." />
+            <marker date="1533191053337" expanded="true" signature="4417:4467" ph="..." />
           </folding>
         </state>
       </provider>
